@@ -12,6 +12,7 @@ class Brewi < Formula
 
   def install
     bin.install "brew-interactive.sh" => "brewi"
+    chmod 0755, bin/"brewi" 
   end
 
   test do
