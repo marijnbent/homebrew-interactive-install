@@ -15,7 +15,7 @@ class Brewi < Formula
     chmod 0755, bin/"brewi" 
   end
 
-  test do
+  test depends_on 
     assert_predicate bin/"brewi", :exist?
     assert_predicate bin/"brewi", :executable?
   end
