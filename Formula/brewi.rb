@@ -2,7 +2,7 @@ class Brewi < Formula
   desc "Interactive Homebrew package management script"
   homepage "https://github.com/marijnbent/homebrew-interactive-install"
   url "https://raw.githubusercontent.com/marijnbent/homebrew-interactive-install/refs/heads/main/brew-interactive.sh"
-  version "0.1.2"
+  version "0.1.3"
 
   # To get the SHA256:
   # `curl -L "https://raw.githubusercontent.com/marijnbent/homebrew-interactive-install/refs/heads/main/brew-interactive.sh" | shasum -a 256
@@ -15,7 +15,7 @@ class Brewi < Formula
     chmod 0755, bin/"brewi" 
   end
 
-  test depends_on 
+  test do 
     assert_predicate bin/"brewi", :exist?
     assert_predicate bin/"brewi", :executable?
   end
