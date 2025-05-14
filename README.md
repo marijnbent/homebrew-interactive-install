@@ -1,4 +1,6 @@
-# brew-interactive
+# Brew Interactive Install
+
+`brew search`, `brew info` and `brew install` combined in `brewi`.
 
 https://github.com/user-attachments/assets/94360b1c-ec6e-4524-a222-b8e49efb56ef
 
