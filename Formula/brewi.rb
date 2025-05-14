@@ -2,7 +2,7 @@ class Brewi < Formula
   desc "Interactive Homebrew package management script"
   homepage "https://github.com/marijnbent/homebrew-interactive-install"
   url "https://raw.githubusercontent.com/marijnbent/homebrew-interactive-install/refs/heads/main/brew-interactive.sh"
-  version "0.1.0"
+  version "0.1.1"
 
   # To get the SHA256:
   # `curl -L "https://raw.githubusercontent.com/marijnbent/homebrew-interactive-install/refs/heads/main/brew-interactive.sh" | shasum -a 256
